@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; -------------------------------------------------
+; Restore Windows Update Pause settings to default
+; -------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsUpdate\UX\Settings]
+"FlightSettingsMaxPauseDays"=-
+
+; -------------------------------------------------
+; Re-enable Automatic Windows Updates
+; -------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\AU]
+"NoAutoUpdate"=-
